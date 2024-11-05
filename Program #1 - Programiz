@@ -1,0 +1,27 @@
+# Program #1
+#From the first video based from Programiz
+#Instructions...
+#Create a class named Triangle.
+#Create an object from it. The object will have three attributes named a, b and c that represent the sides of the triangle.
+#The Triangle class will have two methods:
+the init method to initialize the sides
+a method to calculate the perimeter of the triangle from its sides
+#The perimeter of the triangle should be printed from outside the class.
+
+class Triangle:  
+    def __init__(self, a, b, c):  
+        self.a = a  
+        self.b = b  
+        self.c = c  
+        pass  # Placeholder  
+
+    def perimeter(self):  
+        return self.a + self.b + self.c  
+
+# Creating an object of Triangle  
+t1 = Triangle(3, 4, 5)  
+
+# Printing the perimeter of the triangle  
+print("Perimeter of the triangle:", t1.perimeter())
+
+#Jadon Anderstrom, 11/5/2024, "Program #1".
